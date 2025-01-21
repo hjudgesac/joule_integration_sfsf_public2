@@ -1,4 +1,4 @@
-Before you can activate Joule there are certain number of pre-requisites that must be met.  This section describes those pre-requisites and outlines some details that need to be captured prior to running through the activation steps.
+Before you can activate Joule for SuccessFactors, there are certain number of pre-requisites that must be met.  This section describes those pre-requisites and outlines some details that need to be captured prior to running through the activation steps.
 
 ## 1. Run Booster in SAP BTP for Joule
 Make sure you have completed the mission [Establish a Unified Joule Instance](https://discovery-center.cloud.sap/missiondetail/4538/4826/) and successfully executed the Joule booster for SAP S/4HANA Public Cloud Edition.
