@@ -1,8 +1,5 @@
 Before you can activate Joule for SuccessFactors, there are certain number of pre-requisites that must be met.  This section describes those pre-requisites and outlines some details that need to be captured prior to running through the activation steps.
 
-## 1. Run Booster in SAP BTP for Joule
-Make sure you have completed the mission [Establish a Unified Joule Instance](https://discovery-center.cloud.sap/missiondetail/4538/4826/) and successfully executed the Joule booster for SAP S/4HANA Public Cloud Edition.
-  
 ## 2. Validate Global User ID of SuccessFactors User
 
 In order to use Joule, SuccessFactors users must have a Global User ID(GUID) field populated in their SuccessFactors user profile and this GUID should match what's in the SAP Cloud Identity Authentication (IAS) user profile.  This should already be in place if SuccessFactors integration to SAP Cloud Identity Services was done following best practices and a provisioning job was run to replicate user profiles from SuccessFactors to IAS. If the user replication job was not run in the past or if there were errors for certain users during the job execution, those users will not have the GUID field populated in SuccessFactors.  The **Manage Login Accounts** app can be used to visualize the GUID field in SuccessFactors and compare it to the user profile in IAS.  For more information on how to get access to the Manage Login Accounts application, follow [2859043 - Manage Login Accounts tool](https://userapps.support.sap.com/sap/support/knowledge/en/2859043).<br/>
