@@ -1,6 +1,6 @@
 1. From the Navigation Pane on the left, select **Security >> Users** and click the arrow to open user details.</br>
 ![create_content_provider](1.png)
-**NOTE**: Make sure to select SAP Cloud Identity User. User from Default Identity Provider should not be used. 
+ **NOTE**: Make sure to select SAP Cloud Identity User. User from Default Identity Provider should not be used. 
 
 3. Scroll down to role collections section and click **Additional Details** icon >> **Assign Role Collections**.</br> 
 ![create_content_provider](2.png)   
