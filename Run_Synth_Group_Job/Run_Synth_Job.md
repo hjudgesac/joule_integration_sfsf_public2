@@ -3,8 +3,10 @@
 3. Under **Job Monitor**, set the **Job Type** filter to **Refresh Synthetic Group Data** and click **Go**.</br>
 ![Run_Synth_Group_Job](1.png)
 4. Confirm the **SyntheticGroupRefreshJobType_<companyID>_deepLinkActivationPermission** has executed successfully at least once in your system.
-![Run_Synth_Group_Job](1.png)
-6. Enter the following information:
+![Run_Synth_Group_Job](2.png)
+**Note**:  This job is created automatically in the SuccessFactors system by the Joule booster.
+5. If the job doesn't show up under the Job Monitor, click the **Job Scheduler** tab. Set the Job Type filter and from the **Actions** menu, click **Run it Now** to execute the **SyntheticGroupRefreshJobType_<companyID>_deepLinkActivationPermission** job.
+![Run_Synth_Group_Job](3.png)
   * **Job Name**
   * **Job Type:** Refresh Synthetic Group Data
   * **Job Parameters:** Common Data Model Content Deep-Link Access User Group
