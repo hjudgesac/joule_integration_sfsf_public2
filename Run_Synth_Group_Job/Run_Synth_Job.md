@@ -1,8 +1,10 @@
 1. Login to SuccessFactors Application.
 2. Navigate to **Admin Center**-> **Scheduled Job Manager**.
-3. Under **Job Scheduler** tab, click on **Create Job Request**.</br>
-![Run_Synth_Group_Job](1Scheduled_Job_Request.jpg)
-4. Enter the following information:
+3. Under **Job Monitor**, set the **Job Type** filter to **Refresh Synthetic Group Data** and click **Go**.</br>
+![Run_Synth_Group_Job](1.png)
+4. Confirm the **SyntheticGroupRefreshJobType_<companyID>_deepLinkActivationPermission** has executed successfully at least once in your system.
+![Run_Synth_Group_Job](1.png)
+6. Enter the following information:
   * **Job Name**
   * **Job Type:** Refresh Synthetic Group Data
   * **Job Parameters:** Common Data Model Content Deep-Link Access User Group
