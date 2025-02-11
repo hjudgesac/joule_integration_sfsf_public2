@@ -30,7 +30,7 @@
 
 10. Click on **Properties** and replace the placeholder values with appropriate values for your setup using the information below:
   * **sf.company.id** : Replace with placeholder value with your actual SuccessFactors CompanyID.  For e.g. DemoCompany in my screenshot.
-  * **URL** : Specify the API URL corresponding to your SuccessFactors instance.  For e.g. https://api8.cert.successfactors.com in my setup.  Refer to the preparation steps if unsure of what URL to use.
+  * **URL** : Specify the **mTLS Certificate Server** api URL corresponding to your SuccessFactors instance.  For e.g. https://api8.cert.successfactors.com in my setup.  Refer to the preparation steps if unsure of what URL to use.  DO NOT forget to include **.cert** in the URL.
   * **sf.user.filter** : Update the **userName** filter to include your own SuccessFactors users.  Use **or** to add additional users who should be replicated into  Work Zone when this job is run later.             
 **Note**: The reason for using a filter for specific users is so that we don't replicate the full SuccessFactors user base into Work Zone.  This setup will make it easier to test with few users first before rolling out to larger number of users.  The userName part of the filter can be removed later if full user synch is required.</br>
   ![configure_ips](6.jpg)
