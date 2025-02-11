@@ -2,7 +2,7 @@
 ![create_content_provider](1.png)
 
 2. Scroll down to role collections section and click **Additional Details** icon >> **Assign Role Collections**.</br> 
-![create_content_provider](2.jpg)   
+![create_content_provider](2.png)   
 
 3. Select the **Launchpad_Admin** and click **Assign Role Collection**.</br>
 ![create_content_provider](3.jpg) 
