@@ -2,22 +2,10 @@
 2. Navigate to **Admin Center**-> **Scheduled Job Manager**.
 3. Under **Job Monitor**, set the **Job Type** filter to **Refresh Synthetic Group Data** and click **Go**.</br>
 ![Run_Synth_Group_Job](1.png)
-4. Confirm the **SyntheticGroupRefreshJobType_<companyID>_deepLinkActivationPermission** has executed successfully at least once in your system.
+4. Confirm the **SyntheticGroupRefreshJobType_yourcompanyID_deepLinkActivationPermission** has executed successfully at least once in your system.
 ![Run_Synth_Group_Job](2.png)
 **Note**:  This job is created automatically in the SuccessFactors system by the Joule booster.
-5. If the job doesn't show up under the Job Monitor, click the **Job Scheduler** tab. Set the Job Type filter and from the **Actions** menu, click **Run it Now** to execute the **SyntheticGroupRefreshJobType_<companyID>_deepLinkActivationPermission** job.
+5. If the job doesn't show up under the Job Monitor, click the **Job Scheduler** tab. Set the **Job Type** filter to **Refresh Synthetic Group Data** and click **Go**.  Fom the **Actions** menu, click **Run it Now** to execute the **SyntheticGroupRefreshJobType_yourcompanyID_deepLinkActivationPermission** job.
 ![Run_Synth_Group_Job](3.png)
-  * **Job Name**
-  * **Job Type:** Refresh Synthetic Group Data
-  * **Job Parameters:** Common Data Model Content Deep-Link Access User Group
-  * **Occurrence:** Recurring
-  * **Recurrence Pattern**: Daily
-  * **Start Date**: Use current date and set to execute in few minutes
-  * **End Date**: Time frame of your choice
-  ![Run_Synth_Group_Job](2JobDetail.jpg)
-
-5. Click **Submit**.</br>
-
-
-**Note**: This job must be successfully executed once before proceeding to the next step.  Set the start time of job to execute so that it executes in the next few minutes.</br>
-**Note**: This job execution would make sure all the users who has been assigned deep link specific access are refreshed and synced correctly during Identity Provisioning sync to SAP Build Work Zone application.
+6. Switch to **Job Monitor** tab and confirm the job executes successfully before proceeding to the next step in the mission.
+**Note**: This job execution would make sure all the users who are assigned deep link specific access are refreshed and synced correctly during Identity Provisioning sync to SAP Build Work Zone application.
