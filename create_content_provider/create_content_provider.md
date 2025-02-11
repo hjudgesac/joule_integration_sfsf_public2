@@ -1,5 +1,5 @@
 1. From the Navigation Pane on the left, select **Security >> Users** and click the arrow to open user details.</br>
-![create_content_provider](1.jpg)
+![create_content_provider](1.png)
 
 2. Scroll down to role collections section and click **Additional Details** icon >> **Assign Role Collections**.</br> 
 ![create_content_provider](2.jpg)   
