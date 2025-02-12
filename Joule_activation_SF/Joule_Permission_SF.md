@@ -32,4 +32,4 @@
 14. Click **Save Changes**.</br>
 ![Joule_activation_SF](9Save_Changes.jpg)
 
-**NOTE**: Above steps will allow authorized users to access the Joule functionality and based on user's data access for supported use case, information will be available. Also, this permission is only visible after booster execution in BTP subaccount.
+**NOTE**: The steps above will allow the user to see the Joule icon in SAP SuccessFactors home page.  The user may still need additional permissions assigned to leverage all the use cases supported by Joule. See the preparation section for permissions required to use Employee Central specific use cases.
