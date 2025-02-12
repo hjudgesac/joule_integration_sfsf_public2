@@ -20,13 +20,6 @@ Joule supports various use cases that are specific to Employee Central module in
 * Permissions to schedule jobs in SuccessFactors.  See [Scheduled Job Manager](https://userapps.support.sap.com/sap/support/knowledge/en/2906009)
 * Permissions to [**Security Center >> X.509 Certificate Mapping**](https://userapps.support.sap.com/sap/support/knowledge/en/3300596).
 * Manage Permission Roles and Manage Permission Groups access.  See [Granting Administrators Access to RBP](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/cdd844b5f0744d238284e937deb73f39/0aa4fbb7d9914a448d70238b321ab101.html).
-* Permissions to access **Extension Center** (see [Enabling Extension Center](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/6c9f794920b947648737d914a669f195/f1eface4d74545c1a29a9de970b686d9.html?version=2405))  in SAP SuccessFactors Admin Center that include:
-  * **Admin Access to MDF OData API** permission from the **Metadata Framework** category.
-    ![prepare_activation](7.jpg)
-  * **Create Integration with SAP BTP** permission from the **Manage Extensions** on SAP BTP category.
-    ![prepare_activation](6.jpg)
-
-**NOTE:** If Extension Center is not visible in Admin Center, choose either one of 2 options documented in note [3414682 - Unable to View Extension Center even related permissions are granted](https://userapps.support.sap.com/sap/support/knowledge/en/3414682) to activate Extension Center.
 
 ## 5. Determine SuccessFactors Data Center
 
