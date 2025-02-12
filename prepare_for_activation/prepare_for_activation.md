@@ -13,7 +13,8 @@ An API user with **Allow Admin to Access OData API through Basic Authentication*
 
 ## 3. Activate Employee Central Quick Links
 
-Joule supports various use cases that are specific to Employee Central module in SuccessFactors.  To enable Employee Central specific use cases, Employee Central Quick Links should already be enabled in SAP SuccessFactors.  If Employee Central Quick Links are not already enabled, follow the steps in **Activate Employee Central Quick Links** card.
+Joule supports various use cases that are specific to Employee Central module in SuccessFactors.  To enable Employee Central specific use cases, Employee Central Quick Links should already be enabled in SAP SuccessFactors.  If Employee Central Quick Links are not already enabled, follow the steps detailed in [Configuring an Employee Central Quick Action Template](https://help.sap.com/docs/successfactors-employee-central/b14dd15ca58f43e0856184a740a4b212/00ad30be627843c1ba7fbd22353571cb.html) help page.
+
   
 ## 4. Permissions Required in SuccessFactors
 
